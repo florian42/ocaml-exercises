@@ -6,3 +6,7 @@
  (name test_nth_element)
  (libraries alcotest main))
 
+(test
+ (name test_len)
+ (libraries alcotest main))
+

@@ -8,3 +8,7 @@ let rec at index list = match list with
     | [] -> None
     | h :: t -> if index = 0 then Some h else at (index - 1) t
 
+
+let rec len ?(acc=0) list = match list with
+        | [] -> acc
+        | _ :: t -> len ~acc:(acc + 1) t
