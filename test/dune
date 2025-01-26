@@ -1,0 +1,8 @@
+(test
+ (name test_last_two)
+ (libraries alcotest main))
+
+(test
+ (name test_nth_element)
+ (libraries alcotest main))
+
